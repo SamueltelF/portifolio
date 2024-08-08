@@ -41,9 +41,9 @@ nav ul li a:hover {
 }
 @media (max-width: 767px) {
     .header  {
-        width: 90%; /* Ajuste a largura para 90% da tela */
-        padding: 15px; /* Adicione algum padding interno */
-        box-shadow: none; /* Remova a sombra para um visual mais leve em dispositivos móveis */
+        width: 90%; 
+        padding: 15px; 
+        box-shadow: none; 
     }
 }
 
@@ -63,9 +63,9 @@ nav ul li a:hover {
 }
 @media (max-width: 767px) {
     .sessao {
-        width: 90%; /* Ajuste a largura para 90% da tela */
-        padding: 15px; /* Adicione algum padding interno */
-        box-shadow: none; /* Remova a sombra para um visual mais leve em dispositivos móveis */
+        width: 90%; 
+        padding: 15px; 
+        box-shadow: none; 
     }
 }
 
@@ -144,12 +144,12 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-/* Estilos para telas de celular */
+
 @media (max-width: 767px) {
     .sobre {
-        width: 90%; /* Ajuste a largura para 90% da tela */
-        padding: 15px; /* Adicione algum padding interno */
-        box-shadow: none; /* Remova a sombra para um visual mais leve em dispositivos móveis */
+        width: 90%; 
+        padding: 15px; 
+        box-shadow: none;
     }
 }
 
