@@ -12,7 +12,6 @@ background-color: #25597be2;
 header {
     background: #333;
     color: #fff;
-   
     text-align: center;
     padding: 1rem 0;
 }
@@ -40,6 +39,13 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
 }
+@media (max-width: 767px) {
+    .header  {
+        width: 90%; /* Ajuste a largura para 90% da tela */
+        padding: 15px; /* Adicione algum padding interno */
+        box-shadow: none; /* Remova a sombra para um visual mais leve em dispositivos móveis */
+    }
+}
 
 .principal {
   background-image: url('https://telegra.ph/file/bd4efb8254b9105546bdb.jpg');
@@ -54,6 +60,13 @@ nav ul li a:hover {
   width: 500px;
   height: 500px;
   border-radius: 50px;
+}
+@media (max-width: 767px) {
+    .sessao {
+        width: 90%; /* Ajuste a largura para 90% da tela */
+        padding: 15px; /* Adicione algum padding interno */
+        box-shadow: none; /* Remova a sombra para um visual mais leve em dispositivos móveis */
+    }
 }
 
 .foto {
@@ -162,7 +175,6 @@ footer {
     text-align: center;
     padding: 20px 0;
     bottom: 0;
-    width: 120%;
     font-family: Arial, sans-serif;
 }
 
