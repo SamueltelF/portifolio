@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+background-color: #25597be2;
+}
+
+header {
+    background: #333;
+    color: #fff;
+   
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+  background-image: url('https://telegra.ph/file/bd4efb8254b9105546bdb.jpg');
+}
+
+.sessao {
+  display: block;
+  margin: 0 auto;
+  background-image: linear-gradient(to left, #a69ca08e,  #d9d0d487);
+  background-repeat: no-repeat;
+  background-size: none;
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+}
+
+.foto {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.texto {
+    text-align: center;
+}
+
+.titulo-1, .p {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    text-align: center;
+    
+}
+
+.projetos-destaque {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.section-container {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    border-bottom: 4px solid #ccc;
+}
+
+.content-container {
+    padding: 16px;
+}
+
+.content-container p {
+    margin: 0 0 16px;
+}
+
+.action-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+.sobre {
+   width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.lingua {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.mensagem {
+    font-style: italic;
+    color: gray;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px 0;
+   
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.redes {
+    margin-top: 10px;
+}
+
+.redes a {
+    color: #000;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.redes a:hover {
+    color: #0073e6;
+}
+.bio {
+padding: 20px;
+max-width: 600px;
+margin: auto;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+color: white;
+}
+.bio h1 {
+font-size: 24px;
+color: white;
+text-align: center;
+}
+.bio p {
+font-size: 16px;
+color: white;
+line-height: 1.6;
+}
