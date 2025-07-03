@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="bg-slate-900 min-h-screen text-gray-100">
+    <!-- Home Section -->
+    <section id="home" class="pt-20 min-h-screen flex items-center bg-base">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <div class="mb-8">
+                    <h1 class="text-5xl md:text-7xl font-bold mb-6">
+                        <span class="gradient-text">
+                            Samuel Teles
+                        </span>
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                        Aprendiz na programação, apaixonado por novas criações e 
+                        soluções, ideias de negócios próprios. 
+                        Especializado em JavaScript, React, Node.js
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
+                        <a href="#projects" class="bg-gradient-to-r from-indigo-600 to-purple-600 px-8 py-3 rounded-full font-semibold hover:scale-105 transition-transform text-white shadow-lg">
+                            Ver Projetos
+                        </a>
+                        <a href="#contact" class="border-2 border-indigo-500 px-8 py-3 rounded-full font-semibold hover:bg-indigo-600 hover:text-white transition-all duration-300 text-indigo-400">
+                            Entrar em Contato
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-slate-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">
+                <span class="gradient-text">
+                    Minhas Habilidades
+                </span>
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div class="card-glassmorphism rounded-xl p-6 text-center hover-lift transition-smooth bg-slate-700 shadow-lg">
+                    <div class="text-yellow-500 text-4xl mb-4">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2 text-gray-200">JavaScript</h3>
+                    <div class="w-full bg-slate-600 rounded-full h-2">
+                        <div class="bg-yellow-500 h-2 rounded-full skill-progress-15"></div>
+                    </div>
+                </div>
+                <div class="card-glassmorphism rounded-xl p-6 text-center hover-lift transition-smooth bg-slate-700 shadow-lg">
+                    <div class="text-blue-500 text-4xl mb-4">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2 text-gray-200">React</h3>
+                    <div class="w-full bg-slate-600 rounded-full h-2">
+                        <div class="bg-blue-500 h-2 rounded-full skill-progress-15"></div>
+                    </div>
+                </div>
+                <div class="card-glassmorphism rounded-xl p-6 text-center hover-lift transition-smooth bg-slate-700 shadow-lg">
+                    <div class="text-green-500 text-4xl mb-4">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2 text-gray-200">Node.js</h3>
+                    <div class="w-full bg-slate-600 rounded-full h-2">
+                        <div class="bg-green-500 h-2 rounded-full skill-progress-15"></div>
+                    </div>
+                </div>
+                <div class="card-glassmorphism rounded-xl p-6 text-center hover-lift transition-smooth bg-slate-700 shadow-lg">
+                    <div class="text-cyan-500 text-4xl mb-4">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2 text-gray-200">Tailwind CSS</h3>
+                    <div class="w-full bg-slate-600 rounded-full h-2">
+                        <div class="bg-cyan-500 h-2 rounded-full skill-progress-15"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 bg-slate-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">
+                <span class="gradient-text">
+                    Meus Projetos
+                </span>
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-slate-800 rounded-xl overflow-hidden hover-lift transition-smooth border border-slate-700 shadow-lg">
+                    <div class="h-50 bg-slate-700 relative overflow-hidden">
+                        
+                        
+                       
+                        <img src="./assets/img/img/baiyles.png">
+                        
+                        <div class="absolute top-2 right-2 bg-blue-600 text-white px-2 py-1 rounded text-xs">
+                            Baiyles
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-gray-200">Baileys WhatsApp</h3>
+                        <p class="text-gray-400 mb-4">Sistema de automação pela Baileys com diversos comandos de adminitração, intretedimentos, jogos e mídias. Com base simples Cafe-bot e projeto Destiny-bot</p>
+
+                       <div class="flex flex-wrap gap-2 mb-4">
+                       <span class="bg-yellow-900 text-yellow-300 px-3 py-1 rounded-full text-sm font-medium">JavaScript</span>
+                       <span class="bg-green-900 text-green-300 px-3 py-1 rounded-full text-sm font-medium">API</span>
+                       <span class="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-sm font-medium">Baileys</span>
+                       <span class="bg-emerald-900 text-emerald-300 px-3 py-1 rounded-full text-sm font-medium">Node.js</span>
+                       <span class="bg-indigo-900 text-indigo-300 px-3 py-1 rounded-full text-sm font-medium">APIs</span>
+                        </div>
+
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/SamueltelF/cafe-bot" class="text-indigo-400 hover:text-indigo-300 transition-colors">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="https://baileys.wiki/docs/intro/" class="text-indigo-400 hover:text-indigo-300 transition-colors">
+                            <i class="fas fa-book"></i> Documentação
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800 rounded-xl overflow-hidden hover-lift transition-smooth border border-slate-700 shadow-lg">
+                    <div class="h-50 bg-slate-700 relative overflow-hidden">
+                        
+                            <img src="./assets/img/img/projeto1.jpg">
+                        
+                        
+                        <div class="absolute top-2 right-2 bg-green-600 text-white px-2 py-1 rounded text-xs">
+                            APIS
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-gray-200">COSETTE - APIS</h3>
+                        <p class="text-gray-400 mb-4">Site de serviço a APIS para desenvolvedores ou bots especializando com documentação e informações sobre projeto tanto site quanto bot</p>
+                       <div class="flex flex-wrap gap-1 mb-3">
+                    <button class="tech-tab active bg-green-900 text-green-300 px-2 py-1 rounded text-xs font-medium transition-colors hover:bg-green-800" data-tech="nodejs">Node.js</button>
+                    <button class="tech-tab bg-yellow-900 text-yellow-300 px-2 py-1 rounded text-xs font-medium transition-colors hover:bg-yellow-800" data-tech="javascript">JavaScript</button>
+                    <button class="tech-tab bg-purple-900 text-purple-300 px-2 py-1 rounded text-xs font-medium transition-colors hover:bg-purple-800" data-tech="axios">Axios</button>
+                    <button class="tech-tab bg-red-900 text-red-300 px-2 py-1 rounded text-xs font-medium transition-colors hover:bg-red-800" data-tech="ejs">EJS</button>
+                    <button class="tech-tab bg-orange-900 text-orange-300 px-2 py-1 rounded text-xs font-medium transition-colors hover:bg-orange-800" data-tech="canvas">Canvas</button>
+                    <button class="tech-tab bg-cyan-900 text-cyan-300 px-2 py-1 rounded text-xs font-medium transition-colors hover:bg-cyan-800" data-tech="tailwind">Tailwind</button>
+                    <button class="tech-tab bg-blue-900 text-blue-300 px-2 py-1 rounded text-xs font-medium transition-colors hover:bg-blue-800" data-tech="html">HTML</button>
+                       </div>                           
+                        <div class="flex space-x-4">
+                            <a href="https://cosette.cloud/" class="text-indigo-400 hover:text-indigo-300 transition-colors">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="bg-slate-800 rounded-xl overflow-hidden hover-lift transition-smooth border border-slate-700 shadow-lg">
+                    <div class="h-50 bg-slate-700 relative overflow-hidden">
+                       
+                            <img src="./assets/img/img/projeto2.jpg">
+                        
+                        <div class="absolute top-2 right-2 bg-green-600 text-white px-2 py-1 rounded text-xs">
+                            DIGITAL STORE
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-3 text-gray-200">DIGITAL - STORE</h3>
+                        <p class="text-gray-400 mb-4">Projeto da Geração Tech, site de vendas e produtos</p>
+                       <div class="flex flex-wrap gap-1 mb-3">
+                       <button class="tech-tab active bg-green-900 text-green-300 px-2 py-1 rounded text-xs font-medium transition-colors hover:bg-green-800" data-tech="nodejs">Node.js</button>
+                       <button class="tech-tab bg-blue-900 text-blue-300 px-2 py-1 rounded text-xs font-medium transition-colors hover:bg-blue-800" data-tech="react">React</button>
+                       <button class="tech-tab bg-cyan-900 text-cyan-300 px-2 py-1 rounded text-xs font-medium transition-colors hover:bg-cyan-800" data-tech="tailwind">Tailwind</button>
+                        </div>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/gabriel-chagas-albuquerque/projeto-drip-store" class="text-indigo-400 hover:text-indigo-300 transition-colors">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="https://projeto-drip-store-alpha.vercel.app/" class="text-indigo-400 hover:text-indigo-300 transition-colors">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-slate-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">
+                <span class="gradient-text">
+                    Entre em Contato
+                </span>
+            </h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <p class="text-xl text-gray-300">
+                        Vamos trabalhar juntos? Entre em contato através das redes sociais ou envie uma mensagem!
+                    </p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+                    <a href="https://www.instagram.com/samueltelesvie/" target="_blank" 
+                       class="bg-gradient-to-br from-pink-600 to-purple-700 p-6 rounded-xl text-center hover-lift transition-smooth text-white shadow-lg">
+                        <i class="fab fa-instagram text-3xl mb-3"></i>
+                        <h3 class="font-semibold">Instagram</h3>
+                        <p class="text-sm opacity-80">@seuusuario</p>
+                    </a>
+                    <a href="https://wa.me/558592492932" target="_blank" 
+                       class="bg-gradient-to-br from-green-600 to-green-700 p-6 rounded-xl text-center hover-lift transition-smooth text-white shadow-lg">
+                        <i class="fab fa-whatsapp text-3xl mb-3"></i>
+                        <h3 class="font-semibold">WhatsApp</h3>
+                        <p class="text-sm opacity-80">(85) 9249-2932</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/samuel-teles-72b3342a4/" target="_blank" 
+                       class="bg-gradient-to-br from-blue-600 to-blue-700 p-6 rounded-xl text-center hover-lift transition-smooth text-white shadow-lg">
+                        <i class="fab fa-linkedin text-3xl mb-3"></i>
+                        <h3 class="font-semibold">LinkedIn</h3>
+                        <p class="text-sm opacity-80">Samuel Teles</p>
+                    </a>
+                    <a href="https://github.com/SamueltelF" target="_blank" 
+                       class="bg-gradient-to-br from-gray-700 to-gray-900 p-6 rounded-xl text-center hover-lift transition-smooth text-white shadow-lg">
+                        <i class="fab fa-github text-3xl mb-3"></i>
+                        <h3 class="font-semibold">GitHub</h3>
+                        <p class="text-sm opacity-80">@SamueltelF</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-8 bg-slate-900 border-t border-slate-700">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-400">
+                &copy; 2024 Samuel Teles. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
